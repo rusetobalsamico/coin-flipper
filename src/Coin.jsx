@@ -1,10 +1,11 @@
-import './Coin.css';
+import "./Coin.css";
 
-function Coin({info}) {
-
-    return(
-        <img className="CoinImg" src={info.imgSrc} alt={info.side} />
-    )
+function Coin({ info }) {
+  return (
+    <div className="Coin">
+      <img className="CoinImg" src={info.imgSrc} alt={info.side} />
+    </div>
+  );
 }
 
 export default Coin;
